@@ -5,11 +5,8 @@
  */
 
 
-
-
 using System;
 using System.Collections.Generic;
-
 // "used to organize your code, and it is a container for classes and other namespaces" w3schools
 namespace randomNFT
 {
@@ -17,51 +14,26 @@ namespace randomNFT
     // container for data and methods
     class Program
     {
+        // universal list of combinations of NFTs Sequence References
+        static List<string> listcombinations = new List<string>();
 
         // main method 
         static void Main(String[] args)
         {
-
             // gets amount of combinations
-            int numCombinations = getNumCombinations();
-
+            // 3 combinations of 3 = 64 possibilities
             // gets all combinations
-            // = getCombinationsArray(numCombinations);
+            getCombinationsArray();
 
-            // check each combination
-            //foreach (var x in )
-            //{
-            //    Console.WriteLine(x);
-
-            //}
-
+            // nft merger??
+            createNFTs();
 
 
             Console.ReadKey();
         }
 
-        static int getNumCombinations()
-        {
-
-            // Stack overflow: Ahmad Khalil & Peter Mortensen
-            // get the factorial 
-
-            // we have 3 in each of the 3 categories,
-            int factorioWanted = 3;
-            int factorial = factorioWanted;
-         
-            for (int i = factorial - 1; i > 0; i--)
-            {
-                factorial *= i;
-            }
-            
-            // make sure that number has the proper factorial
-            Console.WriteLine("Number of different combinations: " + factorial + "\n");
-
-            return factorial;
-        }
-
-        static void getCombinationsArray(int num)
+        // returns the number of slots we want in an
+        static void getCombinationsArray()
         {
             // all combinations
             int[] head = { 0, 1, 2 };
@@ -69,11 +41,21 @@ namespace randomNFT
             int[] legs = { 0, 1, 2 };
 
             // each index contains a combination 
-            int[] combinations = new int[num];
 
-            
+            for (int x = 0; x <= head.Length; x++)
+            {
+                for (int y = 0; y <= body.Length; y++)
+                {
+                    for (int z = 0; z <= legs.Length; z++)
+                    {
+                        listcombinations.Add(x.ToString() + y.ToString() + z.ToString());
+                    }
+                }
+            }
+        }
 
-
+        static void createNFTs()
+        {
 
 
 
@@ -82,6 +64,10 @@ namespace randomNFT
 
 
 
-
     }
+    
+
+        // in classs
 }
+    
+
