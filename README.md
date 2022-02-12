@@ -1,5 +1,5 @@
-# Hackathon22FeistyFerret
-OU Hackathon 22
+# OU Hackathon 22
+## Team: Feisty Ferrets
 
 ---
 
