@@ -1,4 +1,4 @@
-# OU Hackathon 22
+# OU Hackathon 22 ~ Environmental Awareness Game & NFTs
 ## Team: Feisty Ferrets
 
 ---
