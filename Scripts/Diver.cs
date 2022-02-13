@@ -8,6 +8,8 @@ public class Diver : MonoBehaviour
 
     bool isJumping;
     // Start is called before the first frame update
+    public GameManager gameManager;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,4 +28,14 @@ public class Diver : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision){
         isJumping = false;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "obstacle") 
+        {
+            gameManager.GameOver();
+        }
+
+    }
+
 }
