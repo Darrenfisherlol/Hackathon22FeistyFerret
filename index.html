@@ -14,11 +14,11 @@
  <main>
     <h1>We created this game to use NFTs to raise awareness about the environment.</h1>
     <div class = "container">
-    <p class = "btn"><a href="https://github.com/Darrenfisherlol/Hackathon22FeistyFerret">Play Now</a></p> 
+    <p class = "btn"><a href="#">Play Now</a></p> 
 </div>
  </main>
-<section>
-        <ul>
+<section id = "oceanSection">
+        <ul class = "oceanInfo">
 <li>
     There is more than 10 million tons of plastic waste in the ocean.
 </li>
@@ -33,6 +33,29 @@
 </li>
 </ul>
     </section>
+
+    <section id = "email_info">
+      <div>
+       <label for="email">Email</label><br>
+            <input type="text" id="email" name="email"><br><br>
+      </div>
+            <div>
+            <label for="wallet">Hedera wallet ID</label><br>
+            <input type="text" id="wallet" name="wallet"><br><br>
+            </div>
+            <div>
+             <label for="score">High Score!</label><br>
+            <input type="text" id="score" name="score"><br><br>
+            </div>
+            <!-- Donate button -->
+            <div class = "donatebtn">
+            <input type="checkbox" id="buttonDonate" name="buttonDonate" value="buttonDonate">
+            <label for="buttonDonate"> Donate</label><br><br>
+            </div>
+            <div>
+            <button type="button" id="myButton">Submit</button>
+            </div>
+          </section>
  <footer>
  </footer>
 <p>
@@ -45,6 +68,6 @@
     </ul>
 </div>
 </p>
-
+<script src="userInput.js"></script>
 </body>
 </html>
