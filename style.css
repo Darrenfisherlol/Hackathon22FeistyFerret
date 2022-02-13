@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+nav {
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    padding: 15px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+     color: black;
+
+}
+
+main {
+    background-image: radial-gradient(rgb(89, 9, 238), rgb(7, 146, 226));
+    padding: 12em 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+
+.btn {
+    box-shadow: inset 0 0 0 yellow;
+    width: 300px;
+}
+
+
+.btn a
+{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.00 rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.3s;
+    background: black;
+    transition: translate (0, 6px); 
+    outline: none;
+    
+    
+}
+
+
+.btn a:hover
+{box-shadow: inset 300px 0 0 0 teal;}
+
+h1 { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: aliceblue;
+    padding: 10rem;
+
+}
+
+
+a.hover { 
+    text-decoration: none
+    
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+section { 
+    background-color: white;
+    padding: 12em;
+    display: flex;
+    text-align: center;
+}
+
+section ul li
+{ 
+    color: black;
+    margin: 0;
+    padding: 0.6em;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    padding: 8rem;
+}
+
+.ftr {
+    font-size: 13px;
+    padding: 1rem;
+    padding-left: 8rem;
+    color: antiquewhite;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    z
+}
+
+.ftr li
+{
+    list-style-type: none;
+}
