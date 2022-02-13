@@ -1,0 +1,15 @@
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\bin\Debug\net6.0\FeistyFerret-NFT-Randomizer.exe
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\bin\Debug\net6.0\FeistyFerret-NFT-Randomizer.deps.json
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\bin\Debug\net6.0\FeistyFerret-NFT-Randomizer.runtimeconfig.json
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\bin\Debug\net6.0\FeistyFerret-NFT-Randomizer.dll
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\bin\Debug\net6.0\ref\FeistyFerret-NFT-Randomizer.dll
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\bin\Debug\net6.0\FeistyFerret-NFT-Randomizer.pdb
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.csproj.AssemblyReference.cache
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.AssemblyInfoInputs.cache
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.AssemblyInfo.cs
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.csproj.CoreCompileInputs.cache
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.dll
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\ref\FeistyFerret-NFT-Randomizer.dll
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.pdb
+D:\Coding\C#\FeistyFerret-NFT-Randomizer\FeistyFerret-NFT-Randomizer\obj\Debug\net6.0\FeistyFerret-NFT-Randomizer.genruntimeconfig.cache
